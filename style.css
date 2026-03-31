@@ -3,6 +3,10 @@ body {
 }
 
 p {
-    word-wrap:break-word;
+    word-wrap:break-word; /* Make it so the text wraps rather than go on forever*/
     white-space: normal;
+}
+
+.answer {
+    margin-left: 40px; /* Indent all the answers by 40 pixels */
 }
