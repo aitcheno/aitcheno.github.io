@@ -20,6 +20,10 @@ main {
     margin: 0 auto;     /* centers horizontally */
 }
 
+body {
+    min-width: 320px;       /* prevents text from collapsing on tiny screens */
+}
+
 
 p {
     word-wrap:break-word; /* Make it so the text wraps rather than go on forever*/
