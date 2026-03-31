@@ -1,5 +1,7 @@
 header {
+    margin-top: 40px; /*adding margin from the top of page to title*/
     text-align: center; /*Centre the title texts*/
+    min-height: 140px; /*Adding space from title to main body*/
 }
 
 
@@ -14,6 +16,8 @@ h2 { /* Making all the question wrap nicely instead of underneath the question n
 
 main {
     margin-left: 20px; /*Indent all main section text by 20 pixels to make it look prettier*/
+    max-width: 1000px;   /* limits width */
+    margin: 0 auto;     /* centers horizontally */
 }
 
 
@@ -22,15 +26,18 @@ p {
     white-space: normal;
 }
 
+section {
+    margin-bottom: 40px;
+}
+
 .answer {
-    margin-left: 40px; /* Indent all the answers by 40 pixels */
+    margin-left: 60px; /* Indent all the answers by 40 pixels */
 }
 
 ul li { /* Fixing spacing between each list item to improve readability*/
     margin-bottom: 10px;
 }
 
-footer { /*Making the footer empty. Making the page look a bit more polished
-    height: 60px;              /* Height of the footer */
-    margin-top: 20px;          /* Margin from the content*/
+footer { /*Making the footer empty. Making the page look a bit more polished*/
+    min-height: 90px;              /* Height of the footer */
 }
