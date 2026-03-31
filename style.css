@@ -1,6 +1,21 @@
-body {
-    font-family: 'Lucida Sans', sans-serif
+header {
+    text-align: center; /*Centre the title texts*/
 }
+
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h2 { /* Making all the question wrap nicely instead of underneath the question number*/
+    padding-left: 30px;   /* space for the number */
+    text-indent: -30px;   /* pulls the number back */
+}
+
+main {
+    margin-left: 20px; /*Indent all main section text by 20 pixels to make it look prettier*/
+}
+
 
 p {
     word-wrap:break-word; /* Make it so the text wraps rather than go on forever*/
@@ -9,4 +24,13 @@ p {
 
 .answer {
     margin-left: 40px; /* Indent all the answers by 40 pixels */
+}
+
+ul li { /* Fixing spacing between each list item to improve readability*/
+    margin-bottom: 10px;
+}
+
+footer { /*Making the footer empty. Making the page look a bit more polished
+    height: 60px;              /* Height of the footer */
+    margin-top: 20px;          /* Margin from the content*/
 }
