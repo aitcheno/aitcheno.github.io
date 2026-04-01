@@ -2,17 +2,24 @@
 <html>
 <head>
     <title>Henry - Interactive Experience Research</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!--Linking my style sheet-->
 </head>
 
+
+<!--OVERALL PAGE STRUCTURE
+The content is organised using headers, main, section to improve readability and structure Each question has its own section so styling could be more easily 
+implemented and to help separate content.
+
+Dividing into sections also helped me to apply the grid layout with CSS-->
 <body>
     <header>
         <h1>Henry W - <br> Interactive Experience Research</h1>
-        <h3>Discussing <a href="https://palat2023.com/">Palat Tuntaopas&apos; Portfolio</a></h3>
+        <h3>Discussing <a href="https://palat2023.com/">Palat Tuntaopas&apos; Portfolio</a></h3> <!--Linking the page itself so viewers can have a reference for what I'm discussing-->
     </header>
 
-    <main>
-        <!--Dividing all questions into sections improves readability and makes styling easier to implement-->
+    <main> 
+        <!--Dividing all questions into sections improves readability and makes the CSS easier to implement
+        Organised into two columns making the page more balanced and clear.-->
 
         <section>
             <h2>1) What was the first thing you paid attention to when interacting with the experience?</h2>
@@ -23,13 +30,15 @@
             </div>
         </section>
 
+            <!-- Added a video here for additional context to the page about what I was talking about-->
         <section>
             <video src="assets/int-ex2.mp4" controls style="width:100%; border-radius:10px;"></video>
+            <p>Visual Reference of Website</p>
         </section>
 
-        <section class="ignore-grid">
+        <section class="ignore-grid"> <!-- I used this because there was too much text for the second answer and it made the row unbalanced, so I set it across the whole row-->
             <h2>2) Spend two minutes with the experience and create a list of each of your discrete actions.</h2>
-            <!--Making this answer a list makes it easier to read and reflects discrete actions-->
+            <!--Making this answer a list with HTML makes it easier to read rather than paragraphs-->
             <div class="answer">
                 <p>Almost every interaction is a hover interaction.<br> <br></p>
                 <ul class="two-columns">
@@ -146,9 +155,11 @@
             </div>
         </section>
 
+
+        <!-- Just a picture of the landing page which provides some visual context. Placed simply to balance the page visually because the 13th question made it uneven at the bottom-->
         <section>
             <h2>Website Landing Page</h2>
-                <img src="assets/landing-page.png" alt="The websites landing page" style="width:100%""
+                <img src="assets/landing-page.png" alt="The websites landing page" style="width:100%">
         </section>
     </main>
 <footer></footer>

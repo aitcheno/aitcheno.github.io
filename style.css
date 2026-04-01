@@ -1,6 +1,6 @@
 /* ALL STYLE
 Overall visual approach,
-I used trial and error just trying colour combinations, fonts, widths, margins, etc. to come to the style I did. I aimed to have a dark background with light text
+I used trial and error for colour combinations, fonts, widths, margins, etc. to come to the style I did. I aimed to have a dark background with light text
 that was minimal and sleek. */
 
 html, body {
@@ -65,8 +65,9 @@ h2 {
 
 /*MAIN*/
 main {
-    display: grid; /* Unlocks CSS Grids :O*/
+    display: grid; /* Enables CSS Grids*/
     grid-template-columns: 1fr 1fr; /* Two equal columns*/
+        /* I used two columns to make the page far more readable. It kept lines from being too far across the page, and divided each question in a more visually appealing manner*/
     gap: 60px; /* Space between said columns*/
     max-width: 1300px;   /* limits width of each column */
     margin: 0 auto;     /* centres horizontally */
@@ -75,7 +76,7 @@ main {
 }
 
 p {
-    word-wrap:break-word; /* Make it so the text wraps rather than go on forever across the page. I wonder if this is redundant now that the text is in the section grids ...*/
+    word-wrap:break-word; /* Make it so the text wraps rather than go on forever across the page. This may be redundant now I've added the grids and sections but still here as a safeguard*/
     white-space: normal;
 }
 
@@ -115,5 +116,7 @@ second answer much easier to read by dividing into two columns*/
 
 /* Made a class just for the second question because I didn't want to have to divide the answer across two seperate sections.*/
 section.ignore-grid {
-    grid-column: 1; /* What this does is make sure the section spans all of the row on the grid layout that its on. So now the section will fill the full row.
+    grid-column: 1/-1; /* What this does is make sure the section spans all of the row on the grid layout that its on. It overides the usual grid layout. So now the section will fill the full row.
+                1 means the start
+                -1 means the end I learnt. I could write this as 1/3 but this is more fullproof in that no matter how many columns I have, it will stretch out to fill the whole row.
 }
