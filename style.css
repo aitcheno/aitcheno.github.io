@@ -52,7 +52,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
-    max-width: 300px;   /* limits width */
+    max-width: 1100px;   /* limits width */
     margin: 0 auto;     /* centres horizontally */
     line-height: 1.5;
     padding: 20px;
@@ -86,7 +86,7 @@ footer { /*Making the footer empty. Making the page look a bit more polished*/
 
 .two-columns {
     columns: 2;        /* splits my dot points into two columns */
-    column-gap: 40px;  /* gap between my columns */
+    column-gap: 20px;  /* gap between my columns */
 }
 
 section.ignore-grid {
