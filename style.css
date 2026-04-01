@@ -52,7 +52,6 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
-    margin-left: 20px; /*Indent all main section text by 20 pixels to make it look prettier*/
     max-width: 1000px;   /* limits width */
     margin: 0 auto;     /* centers horizontally */
     line-height: 1.3;
