@@ -52,7 +52,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
-    max-width: 1500px;   /* limits width */
+    max-width: 300px;   /* limits width */
     margin: 0 auto;     /* centres horizontally */
     line-height: 1.5;
     padding: 20px;
