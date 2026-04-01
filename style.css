@@ -1,7 +1,26 @@
 header {
-    margin-top: 40px; /*adding margin from the top of page to title*/
-    text-align: center; /*Centre the title texts*/
-    min-height: 140px; /*Adding space from title to main body*/
+    margin: 0;
+    font-size: 1.5rem;  
+    font-weight: 300;    
+    letter-spacing: 1px; 
+    margin: 0;
+}
+
+header h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #b8c6ff; 
+}
+
+
+a {
+    color: #91caff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffffff;
 }
 
 html, body {
@@ -10,19 +29,14 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #0b1d3a; /* deep dark blue */
-    color: #e0e7ff; /* off white */
-}
-
-main {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    background: transparent; /* ensures body color shows through */
+    background: linear-gradient(180deg, #0b1d3a, #22458d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #dae0f7; /* off white */
 }
 
 h2 { /* Making all the question wrap nicely instead of underneath the question number*/
-    color: darkblue; 
+    color: rgb(155, 192, 247); 
     font-weight: 700;
     font-size: 1.4em;
     padding-left: 30px;   /* space for the number */
@@ -33,10 +47,9 @@ main {
     margin-left: 20px; /*Indent all main section text by 20 pixels to make it look prettier*/
     max-width: 1000px;   /* limits width */
     margin: 0 auto;     /* centers horizontally */
+    line-height: 1.3;
+    padding: 20px;
 }
-
-
-
 
 p {
     word-wrap:break-word; /* Make it so the text wraps rather than go on forever*/
@@ -44,11 +57,16 @@ p {
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(102, 255, 0, 0.075);
 }
 
 .answer {
     margin-left: 60px; /* Indent all the answers by 40 pixels */
+    padding-left: 20px;
+    border-left: 2px solid #868525;
 }
 
 ul li { /* Fixing spacing between each list item to improve readability*/
@@ -58,3 +76,4 @@ ul li { /* Fixing spacing between each list item to improve readability*/
 footer { /*Making the footer empty. Making the page look a bit more polished*/
     min-height: 90px;              /* Height of the footer */
 }
+
