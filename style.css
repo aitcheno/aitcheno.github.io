@@ -2,14 +2,21 @@ header {
     margin: 0;
     font-size: 1.5rem;  
     font-weight: 300;    
-    letter-spacing: 1px; 
-    margin: 0;
+    letter-spacing: 4px; 
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
 }
 
 header h3 {
     font-size: 1.25rem;
     font-weight: 400;
-    color: #b8c6ff; 
+    color: #94a3b8; 
 }
 
 
@@ -29,14 +36,12 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: linear-gradient(180deg, #0b1d3a, #22458d);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #dae0f7; /* off white */
+    background-color: #0f172a;
+    color: #e2e8f0; /* off white */
 }
 
 h2 { /* Making all the question wrap nicely instead of underneath the question number*/
-    color: rgb(155, 192, 247); 
+    color: #38bdf8
     font-weight: 700;
     font-size: 1.4em;
     padding-left: 30px;   /* space for the number */
@@ -44,6 +49,9 @@ h2 { /* Making all the question wrap nicely instead of underneath the question n
 }
 
 main {
+    display; grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
     margin-left: 20px; /*Indent all main section text by 20 pixels to make it look prettier*/
     max-width: 1000px;   /* limits width */
     margin: 0 auto;     /* centers horizontally */
@@ -58,15 +66,15 @@ p {
 
 section {
     margin-bottom: 60px;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
-    background-color: rgba(102, 255, 0, 0.075);
+    background-color: #1e293b;
 }
 
 .answer {
-    margin-left: 60px; /* Indent all the answers by 40 pixels */
+    margin-left: 20px; /* Indent all the answers by 40 pixels */
     padding-left: 20px;
-    border-left: 2px solid #868525;
+    border-left: 2px solid rgba(148, 163, 184, 0.3);
 }
 
 ul li { /* Fixing spacing between each list item to improve readability*/
